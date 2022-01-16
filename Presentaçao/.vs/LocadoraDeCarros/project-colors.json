@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5be623d2-352e-464c-8854-507ad283370d": {
+      "ProjectGuid": "5be623d2-352e-464c-8854-507ad283370d",
+      "DisplayName": "LocadoraDeCarros",
+      "ColorIndex": 0
+    },
+    "d7634842-945f-4cf7-888f-aaa330a4d65c": {
+      "ProjectGuid": "d7634842-945f-4cf7-888f-aaa330a4d65c",
+      "DisplayName": "LocadoraDeCarros",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d254b9d9-a8dd-41fd-b24e-c30153bc66ff": {
+      "ProjectGuid": "d254b9d9-a8dd-41fd-b24e-c30153bc66ff",
+      "DisplayName": "Negocio",
+      "ColorIndex": 2
+    },
+    "382798d9-15db-4b09-a84f-c3d55820f4d9": {
+      "ProjectGuid": "382798d9-15db-4b09-a84f-c3d55820f4d9",
+      "DisplayName": "Dados",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

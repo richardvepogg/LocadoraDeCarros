@@ -1,0 +1,15 @@
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Dados.deps.json
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Dados.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\ref\Dados.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Dados.pdb
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Negocio.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Negocio.pdb
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.csproj.AssemblyReference.cache
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.GeneratedMSBuildEditorConfig.editorconfig
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.AssemblyInfoInputs.cache
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.AssemblyInfo.cs
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.csproj.CoreCompileInputs.cache
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.csproj.CopyComplete
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\ref\Dados.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.pdb
