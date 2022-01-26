@@ -38,7 +38,7 @@ namespace Dados.Repositorio
         {
             ClienteDataModel clienteDM = new ClienteDataModel();
 
-            clienteDM.Email = "richardgmail";
+            clienteDM.Email = "jose@email.com";
             clienteDM.Nome = "jose";
 
             return _mapper.Map<Cliente>(clienteDM);
@@ -48,7 +48,7 @@ namespace Dados.Repositorio
         {
             ClienteDataModel clienteDM = new ClienteDataModel();
 
-            clienteDM.Email = "richardgmail";
+            clienteDM.Email = "jose@email.com";
             clienteDM.Nome = "jose";
 
             return _mapper.Map<Cliente>(clienteDM);
@@ -56,7 +56,15 @@ namespace Dados.Repositorio
 
         public List<Cliente> ObterListaClientes()
         {
-            throw new NotImplementedException();
+            ClienteDataModel clienteDM = new ClienteDataModel();
+
+            clienteDM.Email = "jose@email.com";
+            clienteDM.Nome = "jose";
+
+
+            List<ClienteDataModel> lstClientes = new List<ClienteDataModel>();
+            lstClientes.Add(clienteDM);
+            return _mapper.Map<List<Cliente>>(lstClientes);
         }
     }
 }

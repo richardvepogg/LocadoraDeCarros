@@ -15,6 +15,7 @@ namespace LocadoraDeCarros.Controllers
 
         public ClienteController(IMapper mapper, IClienteServico clienteServico)
         { 
+         _mapper = mapper;
         _clienteServico = clienteServico;   
         }
 
@@ -113,7 +114,7 @@ namespace LocadoraDeCarros.Controllers
         public ActionResult Delete(int id)
         {
             var clientExcluir = _mapper.Map<ClienteViewModel>(_clienteServico.ObterClientePorID(id));
-            return View();
+            return View(clientExcluir);
         }
 
         // POST: ClienteController/Delete/5
