@@ -13,3 +13,5 @@ E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.c
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\ref\Dados.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.pdb
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\bin\Debug\net6.0\Dados.runtimeconfig.json
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\Dados\obj\Debug\net6.0\Dados.genruntimeconfig.cache

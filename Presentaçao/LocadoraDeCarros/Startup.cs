@@ -4,6 +4,8 @@ using Negocio.RepositorioDados;
 using Dados.Repositorio;
 using Negocio.ServiçoNegocio.Base;
 using Negocio.ServiçoNegocio;
+using Dados.Contexts;
+using Microsoft.EntityFrameworkCore;
 
 namespace LocadoraDeCarros
 {
@@ -18,6 +20,11 @@ namespace LocadoraDeCarros
 
         public void ConfigurationServices(IServiceCollection services)
         {
+            services.AddDbContext<LocadoraDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("SqlConnection"));
+            });
+
             // Add services to the container.
             services.AddControllersWithViews();
             services.AddAutoMapper(typeof(Startup));
