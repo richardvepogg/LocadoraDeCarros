@@ -266,3 +266,5 @@ E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\obj\Debug\net6.0\LocadoraDeCarros.Properties.Resources.resources
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\obj\Debug\net6.0\LocadoraDeCarros.csproj.GenerateResource.cache
