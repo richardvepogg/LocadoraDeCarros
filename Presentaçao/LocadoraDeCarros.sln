@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Dados", "03 - Dados", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocadoraDeCarros", "LocadoraDeCarros\LocadoraDeCarros.csproj", "{D7634842-945F-4CF7-888F-AAA330A4D65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "ClassLibrary1\Negocio.csproj", "{D254B9D9-A8DD-41FD-B24E-C30153BC66FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Negocio", "ClassLibrary1\Negocio.csproj", "{D254B9D9-A8DD-41FD-B24E-C30153BC66FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{382798D9-15DB-4B09-A84F-C3D55820F4D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dados", "Dados\Dados.csproj", "{382798D9-15DB-4B09-A84F-C3D55820F4D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

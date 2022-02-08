@@ -47,10 +47,14 @@ namespace LocadoraDeCarros.Controllers
         {
             try
             {
-            
                     var novoCliente = _mapper.Map<Cliente>(clienteVM);
+
+
                     if (novoCliente.EmailEstaDuplicado(_clienteServico))
                         ModelState.AddModelError("Email", "O email ´já existe no banco de dados");
+
+
+                
                 //TODO: validar regras de negocio
                 if (ModelState.IsValid)
                 {

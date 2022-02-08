@@ -5,6 +5,7 @@ namespace LocadoraDeCarros.Models.ModeloDados
     public class ClienteViewModel
     {
         public int Id { get; set; }
+
         [Required(ErrorMessage ="O campo nome é obrigatório.")]
         [Display(Name = "Nome e sobrenome")]
         public string Nome { get; set; }
@@ -18,6 +19,9 @@ namespace LocadoraDeCarros.Models.ModeloDados
         public string Email { get; set; }
         [Required]
         public string CarteiraDeMotorista { get; set; }
+        [Required]
+        public string CartaoDeCredito { get; set; }
+ 
 
     }
 }
