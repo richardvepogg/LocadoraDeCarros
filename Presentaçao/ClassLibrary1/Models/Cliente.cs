@@ -32,9 +32,15 @@ namespace Negocio.Models
             CarteiraDeMotorista = carteiraMotorista;
         }
 
-        public bool EmailEstaDuplicado(IClienteServico clienteServico) 
+        public bool EmailEstaDuplicado(IClienteServico clienteServico)
         {
-            return clienteServico.ObterClienteEmail(this.Email) != null;
+            var clienteEmail = clienteServico.ObterClienteEmail(this.Email);
+            if (clienteEmail != null)
+            {
+                if (clienteEmail.Id != this.Id)
+                    return true;
+            }
+            return false;
         }
 
     }
