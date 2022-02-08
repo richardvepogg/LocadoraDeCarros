@@ -2,7 +2,6 @@ E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\bin\Debug\net6.0
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\bin\Debug\net6.0\Negocio.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\bin\Debug\net6.0\ref\Negocio.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\bin\Debug\net6.0\Negocio.pdb
-E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\ClassLibrary1\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
