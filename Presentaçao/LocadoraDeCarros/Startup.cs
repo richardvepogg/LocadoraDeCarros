@@ -6,6 +6,7 @@ using Negocio.ServiçoNegocio.Base;
 using Negocio.ServiçoNegocio;
 using Dados.Contexts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace LocadoraDeCarros
 {
@@ -24,6 +25,15 @@ namespace LocadoraDeCarros
             {
                 options.UseSqlServer(Configuration.GetConnectionString("SqlConnection"));
             });
+            services.AddIdentity<IdentityUser, IdentityRole>(config =>
+                {
+                    config.Password.RequiredLength = 6;
+                    config.Password.RequireDigit = false;
+                    config.Password.RequireNonAlphanumeric = false;
+                    config.Password.RequireUppercase = false;
+                })
+                .AddEntityFrameworkStores<LocadoraDbContext>()
+                .AddDefaultTokenProviders();
 
             // Add services to the container.
             services.AddControllersWithViews();
@@ -49,10 +59,13 @@ namespace LocadoraDeCarros
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
-            app.UseAuthorization();
+           
 
             //custom middleware
             app.UseMiddleware<FriendListMiddleware>(Configuration["SafeList"]);
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

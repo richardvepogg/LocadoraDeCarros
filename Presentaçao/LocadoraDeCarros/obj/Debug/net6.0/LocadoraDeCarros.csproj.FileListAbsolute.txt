@@ -268,3 +268,9 @@ E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\obj\Debug\net6.0\LocadoraDeCarros.Properties.Resources.resources
 E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\obj\Debug\net6.0\LocadoraDeCarros.csproj.GenerateResource.cache
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\LocadoraDeCarros\LocadoraDeCarros\Presentaçao\LocadoraDeCarros\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
