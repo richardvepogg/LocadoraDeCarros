@@ -84,5 +84,21 @@ namespace Dados.Repositorio
 
             return _mapper.Map<List<Cliente>>(lstClientes);
         }
+
+        public Cliente ObterClientePorNome(string nome)
+        {
+            ClienteDataModel clienteDM = _dbContext.Cliente.FirstOrDefault(x => x.Nome == nome);
+
+            return _mapper.Map<Cliente>(clienteDM);
+        }
+
+        public Cliente ObterClientePorCarteiraMotorista(string carteiramotorista)
+        {
+            ClienteDataModel clienteDM = _dbContext.Cliente.FirstOrDefault(x => x.CarteiraDeMotorista == carteiramotorista);
+
+            return _mapper.Map<Cliente>(clienteDM);
+        }
+
+
     }
 }

@@ -80,5 +80,11 @@ namespace LocadoraDeCarros.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public IActionResult AcessDenied()
+        {
+            return View();
+        }
+
     }
 }

@@ -62,7 +62,7 @@ namespace LocadoraDeCarros
            
 
             //custom middleware
-            app.UseMiddleware<FriendListMiddleware>(Configuration["SafeList"]);
+           // app.UseMiddleware<FriendListMiddleware>(Configuration["SafeList"]);
 
             app.UseAuthentication();
             app.UseAuthorization();

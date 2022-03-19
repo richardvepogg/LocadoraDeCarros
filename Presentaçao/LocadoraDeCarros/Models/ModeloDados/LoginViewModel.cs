@@ -6,11 +6,11 @@ namespace LocadoraDeCarros.Models.ModeloDados
     {
         [Required]
         [EmailAddress]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
         [Display(Name ="Senha")]
-        public string Password { get; set; }
+        public string? Password { get; set; }
     }
 }
