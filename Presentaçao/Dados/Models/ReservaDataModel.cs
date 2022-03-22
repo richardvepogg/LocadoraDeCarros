@@ -9,5 +9,7 @@ namespace Dados.Models
         public int Id { get; set; }
         public DateTime DataReserva { get; set; }
         public int ClienteId { get; set; }
+        public int CarroId { get; set; }
+
     }
 }

@@ -1,9 +1,5 @@
 ﻿using Negocio.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Negocio.RepositorioDados
 {
@@ -11,6 +7,8 @@ namespace Negocio.RepositorioDados
     {
         Cliente ObterCliente(int id);
         Cliente ObterClientePorEmail(string email);
+        Cliente ObterClienteNome(string email);
+        Cliente ObterClienteCarteiraMotorista(string email);
         List<Cliente> ObterListaClientes();
         bool Editar(Cliente clienteEditado);
         bool Inserir(Cliente novoCliente);

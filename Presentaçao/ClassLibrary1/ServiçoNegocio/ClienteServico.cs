@@ -1,11 +1,7 @@
 ﻿using Negocio.Models;
 using Negocio.RepositorioDados;
 using Negocio.ServiçoNegocio.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Negocio.ServiçoNegocio
 {
@@ -21,6 +17,15 @@ namespace Negocio.ServiçoNegocio
         public Cliente ObterClienteEmail(string email)
         {
             return _clienteRepositorio.ObterClientePorEmail(email);
+        }
+        public Cliente ObterClienteCarteiraMotorista(string carteiraMotorista)
+        {
+            return _clienteRepositorio.ObterClienteCarteiraMotorista(carteiraMotorista);
+        }
+
+        public Cliente ObterClienteNome(string nome)
+        {
+            return _clienteRepositorio.ObterClienteNome(nome);
         }
 
         public Cliente ObterClientePorID(int id)

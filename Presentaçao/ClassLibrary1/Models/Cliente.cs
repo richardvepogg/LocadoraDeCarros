@@ -43,5 +43,27 @@ namespace Negocio.Models
             return false;
         }
 
+        public bool CarteiraMotoristaEstaDuplicado(IClienteServico clienteServico)
+        {
+            var cliente = clienteServico.ObterClienteCarteiraMotorista(this.CarteiraDeMotorista);
+            if (cliente != null)
+            {
+                if (cliente.Id != this.Id)
+                    return true;
+            }
+            return false;
+        }
+
+        public bool NomeEstaDuplicado(IClienteServico clienteServico)
+        {
+            var cliente = clienteServico.ObterClienteNome(this.Nome);
+            if (cliente != null)
+            {
+                if (cliente.Id != this.Id)
+                    return true;
+            }
+            return false;
+        }
+
     }
 }

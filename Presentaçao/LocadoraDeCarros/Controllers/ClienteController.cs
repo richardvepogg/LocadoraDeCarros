@@ -53,8 +53,13 @@ namespace LocadoraDeCarros.Controllers
                     if (novoCliente.EmailEstaDuplicado(_clienteServico))
                         ModelState.AddModelError("Email", "O email ´já existe no banco de dados");
 
+                if (novoCliente.CarteiraMotoristaEstaDuplicado(_clienteServico))
+                    ModelState.AddModelError("CarteiraDeMotorista", "A carteira de motorista ´já existe no banco de dados");
 
-                
+                if (novoCliente.NomeEstaDuplicado(_clienteServico))
+                    ModelState.AddModelError("Nome", "O nome ´já existe no banco de dados");
+
+
                 //TODO: validar regras de negocio
                 if (ModelState.IsValid)
                 {
